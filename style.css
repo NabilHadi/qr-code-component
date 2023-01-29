@@ -18,11 +18,9 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-  min-height: 300px;
-  width: 250px;
+  width: 300px;
   font-family: "Outfit", sans-serif;
-  gap: 1rem;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-size: 15px;
 }
 
 .card .qr-img {
@@ -30,16 +28,16 @@ body {
   max-width: 100%;
 }
 
-.card .card-header {
-  color: hsl(218, 44%, 22%);
-  font-weight: 700;
+.card h1,
+p {
   text-align: center;
-  font-size: 1.3rem;
+  margin: 15px;
 }
 
-.card .card-desc {
+.card h1 {
+  color: hsl(218, 44%, 22%);
+}
+
+.card p {
   color: hsl(220, 15%, 55%);
-  text-align: center;
-  font-size: 15px;
-  margin-bottom: 1rem;
 }
